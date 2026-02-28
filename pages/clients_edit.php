@@ -48,7 +48,7 @@ if (isset($_POST['update'])) {
     <label>Address</label><br>
     <input type="text" name="address" value="<?php echo $client['address']; ?>"><br><br>
     
-    <button class="btn" type="submit" name="update">Update</button>
+    <button class="action_link" type="submit" name="update">Update</button>
 </form>
 </body>
 </html>

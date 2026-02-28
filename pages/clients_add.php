@@ -25,6 +25,7 @@ if (isset($_POST['save'])) {
 <head>
     <meta charset="utf-8">
     <title>Add Client</title>
+    <link rel="stylesheet" href="/ASSESSMENT_BEGINNER/assets/style.css">
 </head>
 <body>
 <?php include "../nav.php"; ?>
@@ -45,7 +46,7 @@ if (isset($_POST['save'])) {
     <label>Address</label><br>
     <input type="text" name="address"><br><br>
     
-    <button class="btn" type="submit" name="save">Save</button>
+    <button class="action_link" type="submit" name="save">Save</button>
 </form>
 </body>
 </html>

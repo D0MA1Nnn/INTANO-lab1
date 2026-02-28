@@ -25,7 +25,7 @@ if (isset($_POST['update'])) {
 <body>
 <?php include "../nav.php"; ?>
 
-<h2>Edit Service</h2>
+<h2 class="formH2" >Edit Service</h2>
 
 <form method="post">
     <label>Service Name</label><br>
@@ -43,7 +43,7 @@ if (isset($_POST['update'])) {
         <option value="0" <?php if($service['is_active']==0) echo "selected"; ?>>No</option>
     </select><br><br>
     
-    <button class="btn" type="submit" name="update">Update</button>
+    <button class="action_link" type="submit" name="update">Update</button>
 </form>
 </body>
 </html>
